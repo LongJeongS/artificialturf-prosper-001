@@ -7,6 +7,7 @@
     "faq/index.html",
     "terms/index.html",
     "privacy/index.html",
+    "gallery/index.html",
     "services/backyard-putting-greens/index.html",
     "services/backyard-artificial-grass/index.html",
     "services/pet-friendly-turf/index.html",
@@ -19,8 +20,8 @@
     "cost-guides/artificial-turf-cost-prosper-tx/index.html",
     "cost-guides/backyard-putting-green-cost/index.html"
   ],
-  "total_pages": 17,
-  "image_count": 15,
+  "total_pages": 18,
+  "image_count": 36,
   "all_urls": [
     "/",
     "/about/",
@@ -28,6 +29,7 @@
     "/faq/",
     "/terms/",
     "/privacy/",
+    "/gallery/",
     "/services/backyard-putting-greens/",
     "/services/backyard-artificial-grass/",
     "/services/pet-friendly-turf/",
@@ -45,5 +47,5 @@
     "/blog/hoa-artificial-turf-prosper-tx/",
     "/blog/replace-builder-sod-with-turf-prosper-tx/"
   ],
-  "assembled_at": "2026-11-17T16:07:15.431671+00:00"
+  "assembled_at": "2026-11-17T19:11:18.023423+00:00"
 }
