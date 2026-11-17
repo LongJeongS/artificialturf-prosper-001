@@ -475,6 +475,10 @@ body.section-tint-subtle #faq {
 #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
   grid-column: 2; grid-row: 2;
 }
+/* Six photos (client photo extras, 2026-11-17): the same pattern again, one large + two stacked. */
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4) { grid-column: 1; grid-row: 3 / 5; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5) { grid-column: 2; grid-row: 3; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) { grid-column: 2; grid-row: 4; }
 #gallery.gallery-variant-asymmetric-feature .gallery-item img {
   width: 100%;
   height: 100%;
@@ -486,7 +490,10 @@ body.section-tint-subtle #faq {
   }
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(1),
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(2),
-  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) {
     grid-column: 1; grid-row: auto;
   }
 }
@@ -4687,6 +4694,18 @@ body.feel-yardage-book { --yb-grid: color-mix(in srgb, var(--color-accent) 14%, 
         <figcaption class="gallery-caption">Pool surround</figcaption>
       </figure>
       <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_4.webp" alt="Wide backyard turf lawn with practice cups by a horizontal plank fence, dark Adirondack chairs and flowering beds" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Backyard lawn</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="more">
+        <img src="/images/gallery_5.webp" alt="Turf lawn wrapping a freeform pool with an aggregate deck, along a tall stained cedar fence and a furled umbrella" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Pool surround</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_6.webp" alt="Pale putting green with four flags inside a darker turf collar, a covered pavilion, stone spa and wood fence behind" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
         <img src="/images/gallery_page_1.webp" alt="Front yard artificial turf lawn before a white brick house with dormers, gravel border and a large bare shade tree" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Front yard</figcaption>
       </figure>
@@ -4699,12 +4718,20 @@ body.feel-yardage-book { --yb-grid: color-mix(in srgb, var(--color-accent) 14%, 
         <figcaption class="gallery-caption">Backyard lawn</figcaption>
       </figure>
       <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_page_4.webp" alt="Turf walkway with long concrete stepping pavers and an inset stone star, set between two limestone walls" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
         <img src="/images/gallery_page_5.webp" alt="Narrow side yard of synthetic turf between a tall cedar fence and a light brick wall, with a green drain grate" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Side yard</figcaption>
       </figure>
       <figure class="gallery-item" data-group="lawns">
         <img src="/images/gallery_page_6.webp" alt="Long strip of fake grass running down a side yard past a gray brick house, tucked against a stained wood fence" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_page_7.webp" alt="Bunkered putting green with several flags cut into a dry field, oak woods, a play set and rail fencing behind" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
       </figure>
       <figure class="gallery-item" data-group="greens">
         <img src="/images/gallery_page_8.webp" alt="Bunkered putting green curving beside a stone-edged pond, with multiple flags and mature trees lining the course" loading="lazy" width="400" height="300">
@@ -4714,12 +4741,28 @@ body.feel-yardage-book { --yb-grid: color-mix(in srgb, var(--color-accent) 14%, 
         <img src="/images/gallery_page_9.webp" alt="Kidney-shaped putting green with four white flags, a metal storage shed, wood fence and a brick ranch house" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Putting green</figcaption>
       </figure>
+      <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_page_10.webp" alt="Bright putting green with three flags and a dark fringe beside a stone chimney pavilion and an aggregate pool deck" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_page_11.webp" alt="Round putting green with five flags and a thick darker border on a rural lawn, rusted pipe fence and trees beyond" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_page_12.webp" alt="Large practice green with a kidney bunker in front and scattered flags, ringed by tall oaks and dark rail fencing" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
+      </figure>
       <figure class="gallery-item" data-group="more">
         <img src="/images/gallery_page_13.webp" alt="Bright turf lawn wrapping a stone edged pool, with flowering beds along tall arched windows and a covered loggia" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Pool surround</figcaption>
       </figure>
       <figure class="gallery-item" data-group="more">
         <img src="/images/gallery_page_14.webp" alt="Batting cage lanes floored with green turf under black chain-link and netting, open sports fields in the distance" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Sport turf</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="more">
+        <img src="/images/gallery_page_15.webp" alt="Turf baseball diamond with red base paths, white lines and a batter's box, open field and low brick buildings beyond" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Sport turf</figcaption>
       </figure>
 
